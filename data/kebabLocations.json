@@ -1,0 +1,422 @@
+[
+    {
+      "name": "Kebab King Gdańsk",
+      "location": [54.352, 18.646],
+      "hours": "10:00 - 22:00",
+      "rating": 4.5,
+      "address": "ul. Długa 10, Gdańsk"
+    },
+    {
+      "name": "Ale Kebab",
+      "location": [54.356, 18.638],
+      "hours": "11:00 - 23:00",
+      "rating": 4.0,
+      "address": "ul. Chlebnicka 15, Gdańsk"
+    },
+    {
+      "name": "Sultan Kebab",
+      "location": [54.348, 18.652],
+      "hours": "09:00 - 21:00",
+      "rating": 4.2,
+      "address": "ul. Rajska 5, Gdańsk"
+    },
+    {
+      "name": "Kebab House",
+      "location": [54.347, 18.640],
+      "hours": "12:00 - 00:00",
+      "rating": 3.8,
+      "address": "ul. Podwale Grodzkie 1, Gdańsk"
+    },
+    {
+      "name": "Mega Kebab",
+      "location": [54.360, 18.620],
+      "hours": "08:00 - 20:00",
+      "rating": 1.9,
+      "address": "ul. Zielona 8, Gdańsk"
+    },
+    {
+      "name": "Turecki Kebab",
+      "location": [54.350, 18.648],
+      "hours": "10:00 - 22:00",
+      "rating": 2.7,
+      "address": "ul. Szeroka 25, Gdańsk"
+    },
+    {
+      "name": "Orientalny Kebab",
+      "location": [54.351, 18.635],
+      "hours": "11:30 - 23:30",
+      "rating": 3.5,
+      "address": "ul. Piwna 12, Gdańsk"
+    },
+    {
+      "name": "City Kebab",
+      "location": [54.353, 18.660],
+      "hours": "10:00 - 23:00",
+      "rating": 4.8,
+      "address": "ul. Łąkowa 34, Gdańsk"
+    },
+    {
+      "name": "Star Kebab",
+      "location": [54.349, 18.643],
+      "hours": "09:00 - 22:00",
+      "rating": 2.1,
+      "address": "ul. Świętojańska 11, Gdańsk"
+    },
+    {
+      "name": "Express Kebab",
+      "location": [54.354, 18.658],
+      "hours": "12:00 - 02:00",
+      "rating": 4.3,
+      "address": "ul. Grunwaldzka 52, Gdańsk"
+    },
+    {
+      "name": "Sopot Kebab",
+      "location": [54.441, 18.566],
+      "hours": "11:00 - 00:00",
+      "rating": 3.5,
+      "address": "ul. Monte Cassino 10, Sopot"
+    },
+    {
+      "name": "Gdynia Doner",
+      "location": [54.519, 18.550],
+      "hours": "10:00 - 22:00",
+      "rating": 4.1,
+      "address": "ul. Świętojańska 50, Gdynia"
+    },
+    {
+      "name": "Kebab Express Sopot",
+      "location": [54.442, 18.555],
+      "hours": "12:00 - 03:00",
+      "rating": 4.4,
+      "address": "ul. Bohaterów Monte Cassino 32, Sopot"
+    },
+    {
+      "name": "Turkish Grill Gdynia",
+      "location": [54.518, 18.540],
+      "hours": "09:00 - 20:00",
+      "rating": 3.2,
+      "address": "ul. Abrahama 12, Gdynia"
+    },
+    {
+      "name": "Sopot Döner",
+      "location": [54.443, 18.567],
+      "hours": "11:30 - 23:30",
+      "rating": 4.5,
+      "address": "ul. 3 Maja 5, Sopot"
+    },
+    {
+      "name": "Golden Kebab Gdańsk",
+      "location": [54.350, 18.605],
+      "hours": "10:00 - 21:00",
+      "rating": 2.9,
+      "address": "ul. Jana Pawła II 10, Gdańsk"
+    },
+    {
+      "name": "Royal Kebab Gdańsk",
+      "location": [54.371, 18.609],
+      "hours": "11:00 - 23:00",
+      "rating": 4.7,
+      "address": "ul. Wrzeszczańska 20, Gdańsk"
+    },
+    {
+      "name": "Gdynia Kebab House",
+      "location": [54.518, 18.535],
+      "hours": "10:30 - 22:30",
+      "rating": 3.8,
+      "address": "ul. Władysława IV 18, Gdynia"
+    },
+    {
+      "name": "Oriental Kebab Sopot",
+      "location": [54.445, 18.560],
+      "hours": "10:00 - 22:00",
+      "rating": 4.0,
+      "address": "ul. Niepodległości 14, Sopot"
+    },
+    {
+      "name": "Street Food Gdańsk",
+      "location": [54.380, 18.600],
+      "hours": "10:00 - 22:00",
+      "rating": 4.2,
+      "address": "ul. Gdańska 3, Gdańsk"
+    },
+    {
+      "name": "Kebab Corner Gdynia",
+      "location": [54.517, 18.540],
+      "hours": "10:00 - 21:00",
+      "rating": 3.9,
+      "address": "ul. Portowa 7, Gdynia"
+    },
+    {
+      "name": "King Döner Gdańsk",
+      "location": [54.342, 18.640],
+      "hours": "12:00 - 02:00",
+      "rating": 4.5,
+      "address": "ul. Kartuska 19, Gdańsk"
+    },
+    {
+      "name": "Turkish Grill House Sopot",
+      "location": [54.444, 18.568],
+      "hours": "11:00 - 23:00",
+      "rating": 4.1,
+      "address": "ul. Monciak 20, Sopot"
+    },
+    {
+      "name": "Kebab & Grill Gdynia",
+      "location": [54.515, 18.535],
+      "hours": "10:00 - 23:00",
+      "rating": 4.3,
+      "address": "ul. Śląska 5, Gdynia"
+    },
+    {
+      "name": "Express Kebab Gdańsk",
+      "location": [54.353, 18.607],
+      "hours": "12:00 - 02:00",
+      "rating": 3.8,
+      "address": "ul. Grunwaldzka 10, Gdańsk"
+    },
+    {
+      "name": "Kebab Master Sopot",
+      "location": [54.441, 18.561],
+      "hours": "10:30 - 23:30",
+      "rating": 4.7,
+      "address": "ul. Niepodległości 25, Sopot"
+    },
+    {
+      "name": "City Grill Gdynia",
+      "location": [54.519, 18.532],
+      "hours": "11:00 - 22:00",
+      "rating": 3.5,
+      "address": "ul. 10 Lutego 15, Gdynia"
+    },
+    {
+      "name": "Night Kebab Gdańsk",
+      "location": [54.350, 18.605],
+      "hours": "19:00 - 03:00",
+      "rating": 4.4,
+      "address": "ul. Świętojańska 8, Gdańsk"
+    },
+    {
+      "name": "Sopot Grill",
+      "location": [54.442, 18.556],
+      "hours": "11:00 - 23:00",
+      "rating": 4.0,
+      "address": "ul. Bohaterów Monte Cassino 40, Sopot"
+    },
+    {
+      "name": "Royal Kebab Gdynia",
+      "location": [54.516, 18.530],
+      "hours": "10:00 - 23:00",
+      "rating": 4.2,
+      "address": "ul. Władysława IV 22, Gdynia"
+    },
+    {
+      "name": "Wejherowo Grill",
+      "location": [54.606, 18.237],
+      "hours": "11:00 - 23:00",
+      "rating": 4.2,
+      "address": "ul. Sobieskiego 14, Wejherowo"
+    },
+    {
+      "name": "Rumia Kebab Center",
+      "location": [54.570, 18.386],
+      "hours": "10:00 - 22:00",
+      "rating": 4.0,
+      "address": "ul. Dąbrowskiego 8, Rumia"
+    },
+    {
+      "name": "Reda Grill House",
+      "location": [54.612, 18.344],
+      "hours": "10:30 - 22:30",
+      "rating": 3.8,
+      "address": "ul. Obwodowa 15, Reda"
+    },
+    {
+      "name": "Rumia Express Döner",
+      "location": [54.578, 18.396],
+      "hours": "12:00 - 00:00",
+      "rating": 4.4,
+      "address": "ul. Sobieskiego 12, Rumia"
+    },
+    {
+      "name": "Wejherowo Döner",
+      "location": [54.603, 18.241],
+      "hours": "11:00 - 23:00",
+      "rating": 3.6,
+      "address": "ul. 12 Marca 3, Wejherowo"
+    },
+    {
+      "name": "Reda King Kebab",
+      "location": [54.609, 18.340],
+      "hours": "10:00 - 22:00",
+      "rating": 4.7,
+      "address": "ul. Morska 20, Reda"
+    },
+    {
+      "name": "Rumia Döner Master",
+      "location": [54.573, 18.385],
+      "hours": "12:00 - 02:00",
+      "rating": 4.1,
+      "address": "ul. Żeromskiego 5, Rumia"
+    },
+    {
+      "name": "Wejher Grill Corner",
+      "location": [54.607, 18.238],
+      "hours": "11:00 - 23:00",
+      "rating": 3.9,
+      "address": "ul. Kaszubska 7, Wejherowo"
+    },
+    {
+      "name": "Reda Express Kebab",
+      "location": [54.613, 18.345],
+      "hours": "10:30 - 22:30",
+      "rating": 4.5,
+      "address": "ul. Polna 10, Reda"
+    },
+    {
+      "name": "Gdynia Mega Döner",
+      "location": [54.520, 18.538],
+      "hours": "10:00 - 23:00",
+      "rating": 3.7,
+      "address": "ul. Władysława IV 30, Gdynia"
+    },
+    {
+      "name": "Sopot Turkish Delight",
+      "location": [54.446, 18.562],
+      "hours": "12:00 - 00:00",
+      "rating": 4.6,
+      "address": "ul. Grunwaldzka 15, Sopot"
+    },
+    {
+      "name": "Gdańsk Oriental Kebab",
+      "location": [54.352, 18.635],
+      "hours": "11:00 - 23:00",
+      "rating": 4.2,
+      "address": "ul. Długi Targ 20, Gdańsk"
+    },
+    {
+      "name": "Reda Döner Express",
+      "location": [54.608, 18.343],
+      "hours": "10:00 - 22:00",
+      "rating": 4.3,
+      "address": "ul. Lipowa 9, Reda"
+    },
+    {
+      "name": "Wejher Turkish Grill",
+      "location": [54.604, 18.245],
+      "hours": "11:00 - 23:00",
+      "rating": 3.8,
+      "address": "ul. Kościuszki 17, Wejherowo"
+    },
+    {
+      "name": "Rumia Mega Grill",
+      "location": [54.571, 18.384],
+      "hours": "12:00 - 02:00",
+      "rating": 4.0,
+      "address": "ul. Mickiewicza 6, Rumia"
+    },
+    {
+      "name": "Reda Döner House",
+      "location": [54.611, 18.342],
+      "hours": "10:30 - 22:30",
+      "rating": 4.5,
+      "address": "ul. Chabrowa 11, Reda"
+    },
+    {
+      "name": "Sopot Grill Master",
+      "location": [54.444, 18.567],
+      "hours": "11:00 - 23:00",
+      "rating": 4.3,
+      "address": "ul. Bohaterów Monte Cassino 25, Sopot"
+    },
+    {
+      "name": "Gdynia Döner Delight",
+      "location": [54.521, 18.534],
+      "hours": "10:00 - 23:00",
+      "rating": 4.1,
+      "address": "ul. Abrahama 22, Gdynia"
+    },
+    {
+      "name": "Wejher Night Kebab",
+      "location": [54.605, 18.242],
+      "hours": "19:00 - 03:00",
+      "rating": 4.0,
+      "address": "ul. Jana III Sobieskiego 19, Wejherowo"
+    },
+    {
+      "name": "Rumia Döner Grill",
+      "location": [54.574, 18.387],
+      "hours": "10:00 - 23:00",
+      "rating": 3.9,
+      "address": "ul. Starowiejska 8, Rumia"
+    },
+    {
+      "name": "Budget Kebab Gdańsk",
+      "location": [54.362, 18.620],
+      "hours": "09:00 - 21:00",
+      "rating": 1.2,
+      "address": "ul. Targowa 15, Gdańsk"
+    },
+    {
+      "name": "Kebab Shack Sopot",
+      "location": [54.447, 18.561],
+      "hours": "12:00 - 22:00",
+      "rating": 1.5,
+      "address": "ul. Haffnera 8, Sopot"
+    },
+    {
+      "name": "Fast Bite Kebab Gdynia",
+      "location": [54.518, 18.532],
+      "hours": "10:00 - 20:00",
+      "rating": 1.3,
+      "address": "ul. Wójta Radtkego 22, Gdynia"
+    },
+    {
+      "name": "Reda Quick Kebab",
+      "location": [54.609, 18.340],
+      "hours": "10:00 - 21:00",
+      "rating": 1.7,
+      "address": "ul. Sportowa 5, Reda"
+    },
+    {
+      "name": "Wejher Low-Cost Grill",
+      "location": [54.605, 18.243],
+      "hours": "12:00 - 22:00",
+      "rating": 1.9,
+      "address": "ul. Sienkiewicza 14, Wejherowo"
+    },
+    {
+      "name": "Rumia Fast Food Delight",
+      "location": [54.570, 18.385],
+      "hours": "11:00 - 22:00",
+      "rating": 1.8,
+      "address": "ul. Główna 10, Rumia"
+    },
+    {
+      "name": "Kebab Budget Express Gdańsk",
+      "location": [54.349, 18.638],
+      "hours": "10:30 - 22:30",
+      "rating": 1.6,
+      "address": "ul. Słowackiego 30, Gdańsk"
+    },
+    {
+      "name": "Cheap Kebab Sopot",
+      "location": [54.443, 18.564],
+      "hours": "11:00 - 23:00",
+      "rating": 1.4,
+      "address": "ul. Niepodległości 18, Sopot"
+    },
+    {
+      "name": "Quick Bites Gdynia",
+      "location": [54.522, 18.540],
+      "hours": "10:00 - 21:00",
+      "rating": 1.2,
+      "address": "ul. Świętojańska 60, Gdynia"
+    },
+    {
+      "name": "Street Grill Reda",
+      "location": [54.610, 18.342],
+      "hours": "10:00 - 22:00",
+      "rating": 1.3,
+      "address": "ul. Polna 25, Reda"
+    }
+]  
