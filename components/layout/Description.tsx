@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../components/variants";
+import { fadeIn } from "../layout/variants";
 import { useInView } from "react-intersection-observer";
 
 const Description = () => {

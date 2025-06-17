@@ -1,7 +1,7 @@
 import { MotionConfig } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../components/variants";
+import { fadeIn } from "../layout/variants";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
