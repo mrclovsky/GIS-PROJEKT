@@ -5,10 +5,10 @@ import { KebabLocation } from '@/types/KebabType';
 
 export function useKebabFilters() {
   // Środek wyszukiwania
-  const [searchCenter, setSearchCenter] = useState<[number, number]>([54.3543, 18.6025]);
+  const [searchCenter, setSearchCenter] = useState<[number, number]>([54.4, 18.6]);
   // Koordynaty
-  const [centerLat, setCenterLat] = useState('54.3543');
-  const [centerLng, setCenterLng] = useState('18.6025');
+  const [centerLat, setCenterLat] = useState('54.4');
+  const [centerLng, setCenterLng] = useState('18.6');
   // Filtry
   const [ratingFilter, setRatingFilter] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
