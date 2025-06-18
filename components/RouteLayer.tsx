@@ -36,7 +36,7 @@ const RouteLayer: React.FC<RouteLayerProps> = ({ start, end }) => {
             },
           ],
         },
-      }) as L.Routing.Control;
+      }) as any;
 
       control.addTo(map);
       routingControlRef.current = control;
