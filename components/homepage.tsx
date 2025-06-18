@@ -9,6 +9,7 @@ import React from 'react';
 import KebabMap from '@/components/KebabMap';
 import FilterPanel from '@/components/FilterPanel';
 import { useKebabFilters } from '@/hooks/useKebabFilters';
+import RouteLayer from '@/components/RouteLayer';
 
 // Dynamicznie importowane komponenty React-Leaflet (SSR wyłączony)
 const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
@@ -50,17 +51,18 @@ export function HomePage() {
       {/* Główna Mapa */}
       <div className="relative h-screen">
         <div className="absolute inset-0 z-0">
-          <KebabMap
-            searchCenter={searchCenter}
-            filteredKebabLocations={filteredKebabLocations}
-            searchQuery={searchQuery}
-            ratingFilter={ratingFilter}
-            radius={radius}
-            setSelectedPlace={setSelectedPlace}
-          />
+        <KebabMap
+        searchCenter={searchCenter}
+          filteredKebabLocations={filteredKebabLocations}
+  searchQuery={searchQuery}
+  ratingFilter={ratingFilter}
+  radius={radius}
+  setSelectedPlace={setSelectedPlace}
+  selectedPlace={selectedPlace}
+/>
         </div>
         
-        <div className="absolute top-[70%] ml-12 lg:ml-16 pointer-events-none">
+        <div className="absolute top-[85%] ml-12 lg:ml-16 pointer-events-none">
           <p className="text-4xl lg:text-5xl xl:text-6xl h-full font-bold drop-shadow-xl">
             MAPA<span className="text-yellow-400">.</span>
           </p>
@@ -96,6 +98,7 @@ export function HomePage() {
     </>
   );
 }
+
 
 // Wyłączenie SSR dla całej strony
 export default dynamic(() => Promise.resolve(HomePage), {

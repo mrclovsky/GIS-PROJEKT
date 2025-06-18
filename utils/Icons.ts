@@ -27,9 +27,9 @@ export const getCenterIcon = () => {
     if (rating >= 4) {
       color = '#FF5733'; // Czerwony
     } else if (rating >= 3) {
-      color = '#FFC300'; // Pomarańczowy
+      color = '#FF8000'; // Pomarańczowy
     } else if (rating >= 2) {
-      color = '#3498DB'; // Niebieski
+      color = '#FFFF00'; // Zółty
     } else {
       color = '#2ECC71'; // Zielony
     }

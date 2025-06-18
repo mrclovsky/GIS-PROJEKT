@@ -16,3 +16,7 @@ html{
   @apply h-full;
 }
 
+.leaflet-routing-container {
+  display: none !important;
+}
+

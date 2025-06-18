@@ -10,6 +10,7 @@ import {
 } from 'react-leaflet';
 import { getCenterIcon, getTriangleIcon } from '@/utils/Icons';
 import KebabPopup from '@/components/KebabPopup';
+import RouteLayer from './RouteLayer';
 
 type KebabLocation = {
   name: string;
@@ -26,6 +27,7 @@ type KebabMapProps = {
   ratingFilter: number | null;
   radius: number;
   setSelectedPlace: (place: KebabLocation) => void;
+  selectedPlace: KebabLocation | null;
 };
 
 const KebabMap: React.FC<KebabMapProps> = ({
@@ -35,14 +37,14 @@ const KebabMap: React.FC<KebabMapProps> = ({
   ratingFilter,
   radius,
   setSelectedPlace,
+  selectedPlace,
 }) => {
   return (
     <MapContainer
       center={searchCenter}
       zoom={13}
-      className="h-full w-full"
-      style={{ height: '100%', width: '100%' }}
       scrollWheelZoom={false}
+      className="h-full w-full"
       zoomControl={false}
     >
       <TileLayer
@@ -64,9 +66,7 @@ const KebabMap: React.FC<KebabMapProps> = ({
           position={kebab.location}
           icon={getTriangleIcon(
             kebab.rating,
-            ratingFilter !== null ||
-              searchQuery.trim() !== '' ||
-              radius > 0
+            ratingFilter !== null || searchQuery.trim() !== '' || radius > 0
           )}
           eventHandlers={{
             click: () => {
@@ -79,6 +79,11 @@ const KebabMap: React.FC<KebabMapProps> = ({
           </Popup>
         </Marker>
       ))}
+
+      {selectedPlace && (
+        <RouteLayer start={searchCenter} end={selectedPlace.location} />
+      )}
+
       <ZoomControl position="bottomright" />
     </MapContainer>
   );

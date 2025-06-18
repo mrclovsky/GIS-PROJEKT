@@ -30,13 +30,13 @@ const KebabPopup: React.FC<KebabPopupProps> = ({ kebab }) => {
   };
 
   return (
-    <div>
-      <h3 className="font-bold text-lg text-center">{kebab.name}</h3>
+    <div className="text-sm space-y-1">
+      <h3 className="font-semibold text-base text-center">{kebab.name}</h3>
       <p className="text-center">
         <strong>Adres:</strong> {kebab.address}
       </p>
       <p className="text-center">
-        <strong>Godziny otwarcia:</strong> {kebab.hours}
+        <strong>Otwarcie:</strong> {kebab.hours}
       </p>
       <p className="text-center">
         <strong>Ocena:</strong> {kebab.rating}/5
@@ -45,18 +45,18 @@ const KebabPopup: React.FC<KebabPopupProps> = ({ kebab }) => {
       <div className="text-center">
         <button
           onClick={toggleForm}
-          className="mt-2 bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600"
+          className="mt-1 bg-yellow-500 text-white px-2 py-0.5 text-xs rounded hover:bg-yellow-600"
         >
           Dodaj swoją ocenę
         </button>
-        <div className="hidden mt-2">
-          <form onSubmit={handleSubmit}>
-            <div className="mb-2">
+        <div className="hidden mt-1">
+          <form onSubmit={handleSubmit} className="space-y-1">
+            <div>
               <label
                 htmlFor="rating"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-xs font-medium text-gray-700"
               >
-                Ocena (1-5):
+                Ocena (1–5):
               </label>
               <input
                 type="number"
@@ -65,13 +65,13 @@ const KebabPopup: React.FC<KebabPopupProps> = ({ kebab }) => {
                 min="1"
                 max="5"
                 required
-                className="w-full px-2 py-1 border rounded"
+                className="w-full px-1 py-0.5 border rounded text-xs"
               />
             </div>
-            <div className="mb-2">
+            <div>
               <label
                 htmlFor="comment"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-xs font-medium text-gray-700"
               >
                 Komentarz:
               </label>
@@ -80,13 +80,13 @@ const KebabPopup: React.FC<KebabPopupProps> = ({ kebab }) => {
                 name="comment"
                 rows={2}
                 required
-                className="w-full px-2 py-1 border rounded"
+                className="w-full px-1 py-0.5 border rounded text-xs"
               ></textarea>
             </div>
             <div className="text-center">
               <button
                 type="submit"
-                className="bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600"
+                className="bg-yellow-500 text-white px-2 py-0.5 text-xs rounded hover:bg-yellow-600"
               >
                 Wyślij
               </button>
