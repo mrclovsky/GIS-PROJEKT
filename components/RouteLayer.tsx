@@ -10,7 +10,7 @@ interface RouteLayerProps {
 
 const RouteLayer: React.FC<RouteLayerProps> = ({ start, end }) => {
   const map = useMap();
-  const routingControlRef = useRef<L.Routing.Control | null>(null);
+  const routingControlRef = useRef<any>(null);
   const [routeInfo, setRouteInfo] = useState<string | null>(null);
 
   useEffect(() => {
@@ -36,7 +36,7 @@ const RouteLayer: React.FC<RouteLayerProps> = ({ start, end }) => {
             },
           ],
         },
-      }) as L.Routing.Control;
+      }) as any;
 
       control.addTo(map);
       routingControlRef.current = control;
